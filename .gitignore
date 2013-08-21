@@ -1,0 +1,9 @@
+target/
+.settings/
+*.class
+build/
+src/gen-java
+
+# Eclipse project files
+.classpath
+.project
