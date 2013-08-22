@@ -275,7 +275,7 @@
       <artifact:remoteRepository id="central"   url="${artifact.remoteRepository.central}"/>
       <artifact:remoteRepository id="java.net2" url="${artifact.remoteRepository.java.net2}"/>
       <artifact:remoteRepository id="apache"    url="${artifact.remoteRepository.apache}"/>
-      <artifact:remoteRepository id="cloudera"  url="https://repository.cloudera.com/artifactory/cloudera-repos/"/>
+      <artifact:remoteRepository id="cloudera"  url="http://192.168.1.209:8081/nexus/content/repositories/cloudera-repos/"/>
       <macrodef name="install">
         <attribute name="pomFile"/>
         <attribute name="file"/>
